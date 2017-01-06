@@ -1,0 +1,17 @@
+name: mexplorer
+version: 0.1.0
+
+authors:
+  - Thomas HUMMEL <thomas@hummel.link>
+
+targets:
+  mexplorer:
+    main: src/mexplorer.cr
+
+crystal: 0.20.3
+
+license: MIT
+
+dependencies:
+  libui:
+    github: fusion/libui.cr
